@@ -10,8 +10,23 @@
   align-items: center;
 }
 
+input {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
 #users {
-  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.oneUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 3px solid lightgray;
 }
 
 img {
@@ -20,13 +35,8 @@ img {
   margin-right: 20px;
 }
 
-#users {
+.showDiv {
   display: flex;
-  flex-wrap: wrap;
-}
-
-#oneUser {
-  text-align: center;
-  margin: 10px;
-  border: 3px solid lightgray;
+  flex-direction: column;
+  align-items: center;
 }
